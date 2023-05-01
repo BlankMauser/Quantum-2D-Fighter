@@ -1,0 +1,44 @@
+﻿asset PlatformConfig;
+
+component Platform 
+{
+    asset_ref<PlatformConfig> Config;
+
+    [ExcludeFromPrototype]    
+    FP XMovementAccumulatedTime;
+    [ExcludeFromPrototype]
+    FP YMovementAccumulatedTime;
+    [ExcludeFromPrototype]
+    FP ZMovementAccumulatedTime;
+    
+    [ExcludeFromPrototype]
+    FP RotationAccumulatedTime;
+    
+    [ExcludeFromPrototype]
+    FPVector3 PositionDelta;
+    [ExcludeFromPrototype]
+    FPVector3 PreviousPosition;
+
+    [HideInInspector]    
+    FPQuaternion PreviousRotation;
+    [HideInInspector]
+    FPQuaternion RotationDelta;
+    
+    [ExcludeFromPrototype]
+    FPVector3 LastMovementCurveEvaluation;
+    [ExcludeFromPrototype]
+    FP LastRotationCurveEvaluation;
+    
+    [ExcludeFromPrototype]
+    QBoolean ReverseXMovement;
+    [ExcludeFromPrototype]
+    QBoolean ReverseYMovement;
+    [ExcludeFromPrototype]
+    QBoolean ReverseZMovement;
+    
+    [ExcludeFromPrototype]
+    QBoolean CanMove;
+    
+    [ExcludeFromPrototype]
+    Int32 QueryIndex;
+}

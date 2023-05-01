@@ -1,0 +1,20 @@
+{
+    "name": "PhotonQuantum",
+    "rootNamespace": "",
+    "references": [
+        "PhotonRealtime",
+        "PhotonQuantumCode",
+        "SerializeReferenceDropdown",
+        "SerializeReferenceDropdownRuntime",
+        "Animancer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

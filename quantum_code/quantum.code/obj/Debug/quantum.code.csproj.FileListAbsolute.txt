@@ -1,0 +1,21 @@
+D:\UnityProjects\Quantum_Platformer\Platformer Tech Sample\Assets\Photon\Quantum\Assemblies\quantum.code.dll
+D:\UnityProjects\Quantum_Platformer\Platformer Tech Sample\Assets\Photon\Quantum\Assemblies\quantum.code.pdb
+D:\UnityProjects\Quantum_Platformer\quantum_code\quantum.code\obj\Debug\quantum.code.csproj.AssemblyReference.cache
+D:\UnityProjects\Quantum_Platformer\quantum_code\quantum.code\obj\Debug\quantum.code.csproj.CoreCompileInputs.cache
+D:\UnityProjects\Quantum_Platformer\quantum_code\quantum.code\obj\Debug\quantum.code.csproj.CopyComplete
+D:\UnityProjects\Quantum_Platformer\quantum_code\quantum.code\obj\Debug\quantum.code.dll
+D:\UnityProjects\Quantum_Platformer\quantum_code\quantum.code\obj\Debug\quantum.code.pdb
+D:\UnityProjects\ZBD_Quantum_Brawl\Platformer Tech Sample\Assets\Photon\Quantum\Assemblies\quantum.code.dll
+D:\UnityProjects\ZBD_Quantum_Brawl\Platformer Tech Sample\Assets\Photon\Quantum\Assemblies\quantum.code.pdb
+D:\UnityProjects\ZBD_Quantum_Brawl\quantum_code\quantum.code\obj\Debug\quantum.code.csproj.AssemblyReference.cache
+D:\UnityProjects\ZBD_Quantum_Brawl\quantum_code\quantum.code\obj\Debug\quantum.code.csproj.CoreCompileInputs.cache
+D:\UnityProjects\ZBD_Quantum_Brawl\quantum_code\quantum.code\obj\Debug\quantum.code.csproj.CopyComplete
+D:\UnityProjects\ZBD_Quantum_Brawl\quantum_code\quantum.code\obj\Debug\quantum.code.dll
+D:\UnityProjects\ZBD_Quantum_Brawl\quantum_code\quantum.code\obj\Debug\quantum.code.pdb
+D:\UnityProjects\Quantum Platform Fighter\quantum_code\quantum.code\obj\Debug\quantum.code.csproj.AssemblyReference.cache
+D:\UnityProjects\Quantum Platform Fighter\quantum_code\quantum.code\obj\Debug\quantum.code.csproj.CoreCompileInputs.cache
+D:\UnityProjects\Quantum Platform Fighter\quantum_code\quantum.code\obj\Debug\quantum.code.dll
+D:\UnityProjects\Quantum Platform Fighter\quantum_code\quantum.code\obj\Debug\quantum.code.pdb
+D:\UnityProjects\Quantum Platform Fighter\Platformer Tech Sample\Assets\Photon\Quantum\Assemblies\quantum.code.dll
+D:\UnityProjects\Quantum Platform Fighter\Platformer Tech Sample\Assets\Photon\Quantum\Assemblies\quantum.code.pdb
+D:\UnityProjects\Quantum Platform Fighter\quantum_code\quantum.code\obj\Debug\quantum.code.csproj.CopyComplete

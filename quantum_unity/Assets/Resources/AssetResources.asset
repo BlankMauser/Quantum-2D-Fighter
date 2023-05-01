@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd8e95ae0daaec4496511105240e8a3, type: 3}
+  m_Name: AssetResources
+  m_EditorClassIdentifier: 
+  AssetBundlesGroup:
+    _resources: []
+  ResourcesGroup:
+    _resources:
+    - Path: Resources/DB/Configs/DefaultPhysicsMaterial
+      AssetRef:
+        Id:
+          Value: 1
+      ResourcePath: DB/Configs/DefaultPhysicsMaterial
+    - Path: Resources/DB/Configs/DefaultNavMeshAgentConfig
+      AssetRef:
+        Id:
+          Value: 2
+      ResourcePath: DB/Configs/DefaultNavMeshAgentConfig
+    - Path: Resources/DB/Configs/DefaultCharacterController2D
+      AssetRef:
+        Id:
+          Value: 3
+      ResourcePath: DB/Configs/DefaultCharacterController2D
+    - Path: Resources/DB/Configs/SimulationConfig
+      AssetRef:
+        Id:
+          Value: 5
+      ResourcePath: DB/Configs/SimulationConfig
+    - Path: Resources/DB/States/BSC_Dash
+      AssetRef:
+        Id:
+          Value: 238288471982921894
+      ResourcePath: DB/States/BSC_Dash
+    - Path: Resources/DB/PlayerCharacter|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 349486177329593246
+      ResourcePath: DB/PlayerCharacter
+    - Path: Resources/DB/PlatformPhysicsMaterial
+      AssetRef:
+        Id:
+          Value: 1212351385468893186
+      ResourcePath: DB/PlatformPhysicsMaterial
+    - Path: Resources/DB/States/StateSet
+      AssetRef:
+        Id:
+          Value: 1293124923961604297
+      ResourcePath: DB/States/StateSet
+    - Path: Resources/DB/States/InitialState
+      AssetRef:
+        Id:
+          Value: 1566452403617857191
+      ResourcePath: DB/States/InitialState
+    - Path: Resources/DB/PlatformConfigs/PlatformDemoConfig2
+      AssetRef:
+        Id:
+          Value: 1675473896151211967
+      ResourcePath: DB/PlatformConfigs/PlatformDemoConfig2
+    - Path: Resources/DB/Map1
+      AssetRef:
+        Id:
+          Value: 1710471675203725834
+      ResourcePath: DB/Map1
+    - Path: Resources/DB/PlatformCharacterControllerConfig
+      AssetRef:
+        Id:
+          Value: 2228785395399368115
+      ResourcePath: DB/PlatformCharacterControllerConfig
+    - Path: Resources/DB/PlayerCharacter|EntityView
+      AssetRef:
+        Id:
+          Value: 2325426274023209007
+      ResourcePath: DB/PlayerCharacter
+    - Path: Resources/DB/Map1_mesh
+      AssetRef:
+        Id:
+          Value: 2640079038811519263
+      ResourcePath: DB/Map1_mesh
+    - Path: Resources/DB/States/Dash
+      AssetRef:
+        Id:
+          Value: 2726016637150437536
+      ResourcePath: DB/States/Dash
+    - Path: Resources/DB/Configs/DefaultCharacterController3D
+      AssetRef:
+        Id:
+          Value: 3004904473921469476
+      ResourcePath: DB/Configs/DefaultCharacterController3D
+    - Path: Resources/DB/States/Emerson/Idle
+      AssetRef:
+        Id:
+          Value: 3107340284673347376
+      ResourcePath: DB/States/Emerson/Idle
+    - Path: Resources/DB/States/Emerson/Fair
+      AssetRef:
+        Id:
+          Value: 3212793503441604546
+      ResourcePath: DB/States/Emerson/Fair
+    - Path: Resources/DB/PlatformConfigs/PlatformDemoConfig3
+      AssetRef:
+        Id:
+          Value: 3260775260228423452
+      ResourcePath: DB/PlatformConfigs/PlatformDemoConfig3
+    - Path: Resources/DB/PlatformConfigs/PlatformDemoConfig4
+      AssetRef:
+        Id:
+          Value: 4364009648544809453
+      ResourcePath: DB/PlatformConfigs/PlatformDemoConfig4
+    - Path: Resources/DB/PlatformConfigs/Default
+      AssetRef:
+        Id:
+          Value: 4502467630023492653
+      ResourcePath: DB/PlatformConfigs/Default
+    - Path: Resources/DB/DefaultPlatformControllerConfig
+      AssetRef:
+        Id:
+          Value: 4513153228283176433
+      ResourcePath: DB/DefaultPlatformControllerConfig

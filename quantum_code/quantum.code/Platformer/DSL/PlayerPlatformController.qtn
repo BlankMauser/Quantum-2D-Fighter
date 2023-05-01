@@ -1,0 +1,24 @@
+asset PlatformControllerConfig;
+
+component PlayerPlatformController
+{
+    asset_ref<PlatformControllerConfig> Config;
+
+    [HideInInspector]    
+    FPQuaternion PlatformDeltaRotation;
+
+    [ExcludeFromPrototype]
+    QBoolean CollidingWithPlatform;
+    
+    [ExcludeFromPrototype]
+    entity_ref Entity;
+    
+    [ExcludeFromPrototype]
+    FPVector3 LastVelocity;
+    
+    [ExcludeFromPrototype]
+    FPVector3 LastPosition;
+    
+    [ExcludeFromPrototype]
+    Int32 LastFrameCollided;
+}

@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20be84bcb634bf040af35284d8fc9c13, type: 3}
+  m_Name: Dash
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/States/Dash
+      Guid:
+        Value: 2726016637150437536
+    Name: Dash
+    Behaviours: []
+    Tags: 05000000
+    EntryChecks:
+    - Conditions: []
+    PriorityLevel: 2
+    Length: 65
+    OverrideAnimation: 0
+    Loop: 1
+  behaviours:
+  - rid: 5172066906413465616
+  entryConditions:
+  - transitions:
+    - rid: 5172066906413465615
+  buffer:
+  - Conditions: []
+  Animation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 74461371588811068, guid: 7c9daa995c8082c4a986dc5f6a6ecb48, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  Name: Dash
+  references:
+    version: 2
+    RefIds:
+    - rid: 5172066906413465615
+      type: {class: InputAnalogCheck, ns: Quantum, asm: quantum.code}
+      data:
+        CheckLeftStick: 0
+        LeftAxisDirection:
+          RawValue: 0
+        LeftAxisAngleMax:
+          RawValue: 0
+        LeftAxisAngleMin:
+          RawValue: 0
+        LeftThreshholdMin:
+          RawValue: 0
+        LeftThreshholdMax:
+          RawValue: 0
+        LeftSlope:
+          Samples: []
+          PreWrapMode: 0
+          PostWrapMode: 0
+          StartTime:
+            RawValue: 0
+          EndTime:
+            RawValue: 65536
+          Resolution: 32
+          OriginalPreWrapMode: 0
+          OriginalPostWrapMode: 0
+          Keys: []
+        LeftMirror_x: 0
+        CheckRightStick: 0
+        RightAxisDirection:
+          RawValue: 0
+        RightAxisAngleMax:
+          RawValue: 0
+        RightAxisAngleMin:
+          RawValue: 0
+        RightThreshholdMin:
+          RawValue: 0
+        RightThreshholdMax:
+          RawValue: 0
+        RightSlope:
+          Samples: []
+          PreWrapMode: 0
+          PostWrapMode: 0
+          StartTime:
+            RawValue: 0
+          EndTime:
+            RawValue: 65536
+          Resolution: 32
+          OriginalPreWrapMode: 0
+          OriginalPostWrapMode: 0
+          Keys: []
+        RightMirror_x: 0
+        Buttons:
+        - Button: 32
+          holdType: 0
+    - rid: 5172066906413465616
+      type: {class: VelocityImpulse, ns: Quantum, asm: quantum.code}
+      data:
+        Velocity:
+          RawValue: 2949120
+        Duration:
+          RawValue: 327680

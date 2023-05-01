@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20be84bcb634bf040af35284d8fc9c13, type: 3}
+  m_Name: Idle
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/States/Emerson/Idle
+      Guid:
+        Value: 3107340284673347376
+    Behaviours: []
+    Tags: 
+    Length: 0
+    OverrideAnimation: 0
+    Loop: 0
+  behaviours:
+  - rid: -2
+  Animation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 74461371588811068, guid: 7c9daa995c8082c4a986dc5f6a6ecb48, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }

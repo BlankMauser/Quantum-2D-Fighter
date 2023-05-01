@@ -1,0 +1,20 @@
+﻿component BasicFields {
+
+        InputType inputType;
+}
+
+
+enum InputType {
+        GROUND_IDLE,
+        AIR_IDLE,
+        WALK,
+        MID_DASH,
+        LATE_DASH,
+        DASH_TURN,
+        RUN_BREAK,
+        EARLY_RUN_TURN,
+        MID_RUN_TURN,
+
+        //Add More Tags Here
+
+}

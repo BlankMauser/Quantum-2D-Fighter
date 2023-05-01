@@ -1,0 +1,28 @@
+﻿//State Assets
+asset StateSet;
+asset State;
+
+component AbilityEntity {
+	
+	FSM FSM;
+	Int32 AnimationFrame;
+	ControllerType controllerType;
+
+}
+
+enum ControllerType {
+        Platformer3D,
+        Platformer2D,
+
+		//Character Controllers Go Here
+
+}
+
+struct FSM
+{
+	asset_ref<StateSet> Moveset;
+	asset_ref<State> CurrentState;
+	asset_ref<State> PrevState;
+	asset_ref<State> NextState;
+
+}

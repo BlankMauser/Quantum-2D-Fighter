@@ -1,0 +1,16 @@
+﻿input
+{
+	button Jump;
+	FPVector2 Direction;
+
+    FPVector2 LeftStick;
+    FPVector2 RightStick;
+    button Grab;
+    button Surf;
+    button Advance;
+    button Light;
+    button Attack;
+    button Heavy;
+    button Special;
+    button Shield;
+}

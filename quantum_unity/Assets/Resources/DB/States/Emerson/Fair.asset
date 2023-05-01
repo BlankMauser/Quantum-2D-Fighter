@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20be84bcb634bf040af35284d8fc9c13, type: 3}
+  m_Name: Fair
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/States/Emerson/Fair
+      Guid:
+        Value: 3212793503441604546
+    Behaviours: []
+    Tags: 
+    Length: 0
+    OverrideAnimation: 0
+    Loop: 0
+    RideLedge: 0
+  behaviours:
+  - rid: 5172066863082897408
+  Animation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 74584855783416212, guid: d4efccfc9fd2d5b46aede60cceed7551, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  references:
+    version: 2
+    RefIds:
+    - rid: 5172066863082897408
+      type: {class: VelocityImpulse, ns: Quantum, asm: quantum.code}
+      data:
+        Velocity:
+          RawValue: 327680
+        Duration:
+          RawValue: 131072
